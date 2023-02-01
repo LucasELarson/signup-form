@@ -1,0 +1,138 @@
+@font-face {
+    font-family: NORSE;
+    src: url("./FONTS/Norse-Bold.otf") format("opentype");
+}
+
+a{
+    color: #596D48;
+}
+
+a:hover{
+    color: #4000ff;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.439);
+    width: 33vw;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    position: absolute;
+    top: 200px;
+}
+
+.bannertext{
+    font-family: NORSE;
+    font-size: 60px;
+    color: white;
+}
+
+#logo{
+    height: 5em;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+body{
+    display: flex;
+}
+
+header{
+    font-family: NORSE;
+    font-size: xx-large;
+}
+
+.bannerimg{
+    height: 100vh;
+    width: 33vw;
+    margin: 0px;
+}
+
+.right>div{
+    height: 33.3333333vh;
+    width: 67vw;
+    padding: 5vh 5vw;
+}
+
+.right>div.middle{
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(141, 141, 141, .16);
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(141, 141, 141, .16);
+    padding: 5vh 5vw;
+}
+
+.bottom>p{
+    font-size: medium;
+}
+
+#submit{
+    background-color: #596D48;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+    padding: .5rem 2rem;
+    font-size: large;
+}
+
+legend{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-right: 70px;
+}
+
+.toprow, .middlerow ,.bottomrow {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+input{
+    width: 225px;
+}
+
+input.textfill:valid{
+    background-color: rgba(0, 163, 0, 0.633);
+}
+
+input.textfill:invalid{
+    background-color: rgba(255, 0, 0, 0.626);
+}
